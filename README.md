@@ -3,7 +3,7 @@
 ## Simple Humandesign Calculator - back end
 python 使用 pyephem 提供的科學計算得出所有天體資料，年代久遠(2017)結構原始，前端部份見 [front_end]。
 
-![screen1](./src/assets/hd_screenshot.png)
+![screen1](./assets/hd_screenshot.png)
 
 __dependencies:__
  - pyephem
@@ -50,10 +50,7 @@ class Test (TestCase):
 ```
 
 
-[screen1]: src/assets/hd_screenshot.png
-[screen2]: src/assets/hd_screenshot_b.png
-[screen3]: src/assets/hd_screenshot_c.png
-[backend]: src/
+[screen1]: assets/hd_screenshot.png
 [front_end]: https://github.com/gordianknotC/humandesign_frontend_js.git
 
 

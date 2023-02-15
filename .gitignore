@@ -11,3 +11,13 @@ cordova/plugins
 thumbs.db
 .idea/
 !.gitkeep
+/cordova/
+/dist/
+/flow-typed/
+/server/
+/src/
+/tempBuild/
+/templates/
+/%HOMEDRIVE%%HOMEPATH%/
+/__tests__/
+/__temp_spec/

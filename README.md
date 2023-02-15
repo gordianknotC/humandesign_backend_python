@@ -1,7 +1,8 @@
 
 
 ## Simple Humandesign Calculator - back end
-python 使用 pyephem 提供的科學計算得出所有天體資料，年代久遠(2017)結構原始，前端部份見 [front_end]。
+
+使用 pyephem 科學計算得出星盤／人類圖所需的天體資料，不包括UI及人類圖資料分析，前端部份見 [front_end]。
 
 南北交算法是用 True Node 真實月交點，一般占星網站用的是平均月交點，所以算出來有些人的南北交星座會和占星網站不一樣，但人類圖軟體 Maya Mechanic 似乎是用真實月交點計算，所以目前採真實月交點。design date的算法是從出生日期往前算88個太陽度，算法上是用迴圈逼近的，所以精度可能不會有maya mechanic軟體好（不知道如何準確算88個太陽度，所以才用迴圈逼近）。
 
